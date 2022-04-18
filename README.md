@@ -12,7 +12,6 @@ This new assignment consists of four technical analysis deliverables. You will s
 - Deliverable 3: Extract and Transform the Kaggle data
     - Extract and transform the Kaggle metadata and MovieLens rating data, then convert the transformed data into separate DataFrames. Then, you’ll merge the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally, you’ll merge the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df
 - Deliverable 4: Create the Movie Database
-
-## Analysis
-
-## Summary
+    - Add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.  Outputs are two tables in an SQL database with the following values:
+        - ![Movie Queries](Resources/movies_query.png)
+        - ![Rating Queries](Resources/ratings_query.png)
